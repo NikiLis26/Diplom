@@ -3,4 +3,4 @@ from .models import Order, OrderItem
 
 class OrderItemSerializer(serializers.ModelSerializer):
     class Meta:
-        model = OrderItem  
+        model = OrderItem
